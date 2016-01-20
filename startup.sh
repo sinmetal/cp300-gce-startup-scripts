@@ -33,7 +33,7 @@ DATE=$(date)
 apt-get update
 apt-get install -y nginx
 
-cat <<EOF > /usr/share/nginx/www/index.html
+cat <<EOF > /var/www/html/index.nginx-debian.html
 <html>
 <head>
 <title>Welcome to nginx!</title>
